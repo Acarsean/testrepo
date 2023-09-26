@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: STACS - Software Tools for Analyzing CDB Spectra
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file. If you use the coincidence data
+  processing modes please also cite the paper mentioned
+  in the references below.
+type: software
+authors:
+  - given-names: Vassily Vadimovitch
+    family-names: Burwitz
+    email: vassily.burwitz@tum.de
+    affiliation: 'Heinz Maier-Leibnitz Zentrum (MLZ), TU München'
+    orcid: 'https://orcid.org/0000-0002-9187-4867'
+  - given-names: Leon
+    family-names: Chryssos
+    affiliation: 'Heinz Maier-Leibnitz Zentrum (MLZ), TU München'
+    email: leon.chryssos@frm2.tum.de
+    orcid: 'https://orcid.org/0000-0002-1320-880X'
+  - given-names: Lucian
+    family-names: Mathes
+    email: lucian.mathes@frm2.tum.de
+    affiliation: 'Heinz Maier-Leibnitz Zentrum (MLZ), TU München'
+    orcid: 'https://orcid.org/0000-0002-0698-8203'
+repository-code: 'https://gitlab.lrz.de/tum-frm2-positrons/stacs'
+license: GPL-3.0
+commit: 1b69f184cef3fee78e03a13eaf962fff6a649cf7
+version: 0.2.3
+date-released: '2023-07-20'
+references:
+  - type: article
+    authors:
+      - family-names: Chryssos
+        given-names: Leon
+        affiliation: "Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich"
+      - family-names: Hugenschmidt
+        given-names: Christoph
+    title: "Novel data analysis tool for the evaluation of Coincidence Doppler Broadening
+    Spectra of the positron–electron annihilation line"
+    year: 2023
+    journal: Nuclear Instruments and Methods in Physics Research Section A
+    volume: 1050
+    doi: 10.1016/j.nima.2023.168171
+    url: https://doi.org/10.1016/j.nima.2023.168171
